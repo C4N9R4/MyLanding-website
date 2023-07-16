@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="Portweb.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  </head>
+  <body id="home">
+    <section class="nav">
+      <header>
+        <div class="brand">
+          <a href="#"> Noodles market online </a>
+        </div>
+
+        <ul class="item">
+          <li><a href="#home" class="page-scroll">Home</a></li>
+          <li><a href="#about" class="page-scroll">About</a></li>
+          <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+          <li><a href="#service" class="page-scroll">Service</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            Selamat datang di <br />
+            <span>Website kami</span>
+          </h2>
+          <p class="pJustify">Silahkan pilih produk yang ingin anda pesan. Klik tombol Lihat produk yang ada di bawah ini, jika ingin melakukan pemesanan lebih lanjut.</p>
+          <a href="#">Lihat Produk</a>
+        </div>
+
+        <div class="imgBox">
+          <img src="misoto.jpg" alt="photo 1" class="img-circle cdr" />
+        </div>
+      </div>
+
+      <ul class="thum">
+        <li><img src="misoto.jpg" alt="My photo 1" onclick="imgSlider('misoto.jpg');changeBgColor('#54d70c') " /></li>
+        <li><img src="migoreng.jpg" alt="My photo 2" onclick="imgSlider('migoreng.jpg');changeBgColor('#e60c2c') " /></li>
+        <li><img src="migeprek.jpg" alt="My photo-3" onclick="imgSlider('migeprek.jpg');changeBgColor('#1e1e1e') " /></li>
+      </ul>
+
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="img/facebook.png" alt="facebook" class="fa" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/instagram.png" alt="instagram" class="fa" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/twitter.png" alt="twitter" class="fa" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="about" class="about">
+      <h3>About Me</h3>
+      <div class="container-satu">
+        <div class="TentangSaya utama">
+          <!-- <h2>Judul-artikel</h2> -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nulla fugit rerum unde consectetur voluptas earum eaque ad cum ab! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae cumque eum iusto! Voluptatibus
+            possimus dignissimos enim illum, doloribus tempora dolorem.
+          </p>
+        </div>
+
+        <div class="TentangSaya kedua">
+          <!-- <h3>Sidebar-dua</h3> -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolor dolores laborum animi ad modi delectus tempora at, ipsum nemo eos quis accusamus dolorem mollitia fuga minus iusto. Suscipit, quibusdam! Lorem ipsum dolor
+            sit, amet consectetur adipisicing elit. Impedit natus eum laborum explicabo sint possimus error dicta ab magnam alias.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <h3>My Portfolio</h3>
+      <div class="container-dua">
+        <div class="card">
+          <div class="contentBox">
+            <div class="contentCard">
+              <h3>Project Terbaru 1 <br /><span class="folio">Creative Portfolio</span></h3>
+              <div class="imgSecond">
+                <img src="img/webver5.jpg" alt="Website bootstrap Ver 5" />
+              </div>
+            </div>
+          </div>
+
+          <div class="toggle">
+            <span></span>
+          </div>
+        </div>
+        <!-- ///////////////////////////// -->
+        <div class="card-second">
+          <div class="card-secondBox">
+            <div class="contentCard-second">
+              <h3>Project Terbaru 2<br /><span class="folios">Creative Portfolio</span></h3>
+              <div class="imgThree">
+                <img src="img/webmtr.jpg" alt="website-materialize" />
+              </div>
+            </div>
+          </div>
+
+          <div class="toggle-second">
+            <span></span>
+          </div>
+        </div>
+        <!-- ///////////////////////////////// -->
+      </div>
+    </section>
+
+    <section id="service" class="service">
+      <h3>Services</h3>
+      <div class="container-tiga">
+        <div class="panel">
+          <div class="header">
+            <img src="img/digital-services.png" alt="digital service" class="img-digital" />
+          </div>
+          <div class="content-panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+
+        <div class="panel">
+          <div class="header">
+            <img src="img/customer-service.png" alt="costumer service" class="img-service" />
+          </div>
+          <div class="content-panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <!-- //////////////////////////////////////////// -->
+        <div class="panel">
+          <div class="header">
+            <img src="img/computer.png" alt="computer" class="img-computer" />
+          </div>
+
+          <div class="content-panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#5e5e5e"
+          fill-opacity="1"
+          d="M0,96L26.7,106.7C53.3,117,107,139,160,165.3C213.3,192,267,224,320,218.7C373.3,213,427,171,480,149.3C533.3,128,587,128,640,117.3C693.3,107,747,85,800,101.3C853.3,117,907,171,960,160C1013.3,149,1067,75,1120,90.7C1173.3,107,1227,213,1280,229.3C1333.3,245,1387,171,1413,133.3L1440,96L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="container-footer">
+        <p class="pfooter">&copy Copyright 2023 | Created with love by Candra Yusuf Irawan</p>
+      </div>
+    </footer>
+    <!-- //////////////////////////////////////////////// -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="web-script.js"></script>
+  </body>
+</html>
