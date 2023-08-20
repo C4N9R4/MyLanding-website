@@ -39,8 +39,8 @@ header {
   z-index: 1;
 }
 
-.noodle {
-  max-width: 120px;
+.brand .noodle {
+  max-width: 125px;
 }
 .brand a:hover {
   opacity: 0.7;
