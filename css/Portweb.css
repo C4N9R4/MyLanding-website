@@ -9,7 +9,7 @@
   src: url(../img/Poppins-BoldItalic.ttf) format(truetype);
 }
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: sans-serif;
 }
 /* hearder */
@@ -39,11 +39,8 @@ header {
   z-index: 1;
 }
 
-.brand a {
-  color: #fff;
-  font-family: "Lobster";
-  font-size: 30px;
-  text-decoration: none;
+.noodle {
+  max-width: 120px;
 }
 .brand a:hover {
   opacity: 0.7;
@@ -130,13 +127,13 @@ header ul li a:hover {
   box-sizing: border-box;
 }
 .content .textBox {
-  max-width: 600px;
+  max-width: 100vw;
 }
 .content .textBox h2 {
   color: #fff;
   font-size: 2.7em;
   line-height: 1.5em;
-  font-weight: 600px;
+  font-weight: 800px;
   font-family: "Poppins";
   letter-spacing: 2px;
 }
@@ -195,16 +192,13 @@ header ul li a:hover {
   transform: translateY(-15px);
 }
 .thum li img {
-  max-width: 40px;
+  max-width: 50px;
 }
-.thum img {
-  border-radius: 20px;
-  border: solid 1px rgb(224, 224, 224);
-}
+
 .sci {
   position: absolute;
   top: 50%;
-  right: 50px;
+  right: 35px;
   transform: translateY(-50%);
   display: flex;
   justify-content: center;
@@ -227,7 +221,7 @@ header ul li a:hover {
 
 /* About */
 
-#about {
+/* #about {
   display: inline-block;
   text-align: center;
   background-color: #5e5e5e;
@@ -256,11 +250,11 @@ header ul li a:hover {
   margin-right: -20px;
   text-indent: 22px;
   text-align: justify;
-}
+} */
 /* Last about */
 
 /* Portfolio */
-#portfolio {
+/* #portfolio {
   display: inline-block;
   text-align: center;
   background-color: #54d70c;
@@ -375,11 +369,11 @@ header ul li a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 /* ///////////////////////////////////// */
 
 /* //////////////////////////////////////// */
-.card-second {
+/* .card-second {
   position: relative;
   width: 550px;
   height: 100px;
@@ -475,13 +469,13 @@ header ul li a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 
 /* Last portfolio */
 /* ///////////////////////////////// */
 
 /* service */
-#service {
+/* #service {
   display: inline-block;
   text-align: center;
   background-color: #5e5e5e;
@@ -546,10 +540,10 @@ footer {
   text-align: center;
   padding-bottom: 30px;
   padding: 30px;
-}
+} */
 /* Last service */
 
-/* Ukuran tablet */
+/* Ukuran tablet
 @media screen and (max-width: 760px) {
   header ul {
     width: 63%;
@@ -605,13 +599,17 @@ footer {
     width: 75vh;
     margin-left: 30px;
   }
-}
+} */
 
 /* * ukuran mobile */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 760px) {
   .menu-toggle {
     display: flex;
     z-index: 1;
+  }
+  header {
+    padding: 20px 40px;
+    padding-bottom: 40px;
   }
   header ul {
     position: absolute;
@@ -637,15 +635,15 @@ footer {
     transform: translateX(0);
     opacity: 1;
   }
-  .brand .photos {
-    width: 60px;
+  section {
+    padding: 40px;
   }
   .content {
     flex-direction: column-reverse;
     margin: 20px 3px;
   }
   .textBox h2 {
-    flex-basis: 100%;
+    flex-basis: 90%;
     margin-bottom: 3px;
   }
 
@@ -653,48 +651,9 @@ footer {
     max-width: 200px;
   }
   .content .textBox h2 {
-    font-size: 1.3em;
+    font-size: 1.8em;
   }
   .thum img {
     margin-bottom: 20px;
-  }
-
-  .container-satu {
-    flex-direction: column;
-    margin: 20 20px;
-  }
-  .container-satu .TentangSaya {
-    padding-bottom: 40px;
-  }
-  .container-dua {
-    flex-direction: column;
-  }
-  .container-tiga {
-    flex-direction: column;
-  }
-
-  .card {
-    width: 420px;
-    margin-left: -70px;
-    margin-bottom: 70px;
-  }
-  .contentCard .imgSecond {
-    width: 370px;
-    height: 200px;
-    margin-left: 5px;
-  }
-  .card-second {
-    width: 420px;
-    margin-left: -70px;
-    margin-bottom: 70px;
-  }
-  .contentCard-second .imgThree {
-    width: 370px;
-    height: 200px;
-    margin-left: 5px;
-  }
-  .panel {
-    width: 70vh;
-    margin-left: -80px;
   }
 }

@@ -37,7 +37,7 @@ menuToggle.addEventListener("click", function () {
 ///////////////// img background//////////////////////////
 
 function imgSlider(anything) {
-  document.querySelector(".cdr").src = anything;
+  document.querySelector(".landing").src = anything;
 }
 
 function changeBgColor(color) {
