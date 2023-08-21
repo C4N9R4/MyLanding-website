@@ -163,7 +163,6 @@ header ul li a:hover {
 }
 
 .content .imgBox {
-  max-width: 400px;
   display: flex;
   padding: 10px 30px;
   justify-content: center;
@@ -171,7 +170,7 @@ header ul li a:hover {
 }
 
 .content .imgBox .img-circle {
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 10px;
 }
 .thum {
