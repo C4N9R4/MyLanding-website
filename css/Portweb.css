@@ -165,7 +165,7 @@ header ul li a:hover {
 .content .imgBox {
   max-width: 400px;
   display: flex;
-  padding: 10px 40px;
+  padding: 10px 30px;
   justify-content: center;
   margin-top: 10px;
 }
@@ -651,7 +651,7 @@ footer {
     max-width: 200px;
   }
   .content .textBox h2 {
-    font-size: 1.8em;
+    font-size: 1.4em;
   }
   .thum img {
     margin-bottom: 20px;
